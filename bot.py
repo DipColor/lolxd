@@ -20,9 +20,6 @@ def on_message(m):
     }
     jstr = requests.get(url, params=params, headers=None, files=None, data=None)
     data = json.loads(jstr.text)
-    if len(m.text.split()) == 2:
-        bot.send_message(cid, "*Error while handling to the message. Please try it with another message or contact my Dev.*", disable_web_page_preview="True", parse_mode="Markdown")
-        return
     if jstr.status_code != 200:
         bot.reply_to(m, "*Fuck. An error was found. Please report this to my Developer:* " + str(jstr.status_code))
     else:
