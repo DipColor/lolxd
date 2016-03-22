@@ -2,14 +2,14 @@
 This Bot is written in Python with the help from the pyTelegramBotAPI.
 
 Test it at our official Telegram Bot:
-[@IchLoggeBot](https://telegram.me/IchLoggeBot)
+[@DanielSaysBot](https://telegram.me/DanielSaysBot)
 
-Powered by [SEEDTEAM](https://github.com/SEEDTEAM) ❤
+Powered by [SEEDTEAM](https://github.com/SEEDTEAM)
 
 
 Let's start by installing everything you need.
 
-# Installation ❤
+# Installation 
 
 First of all, you need to install Python2 & the Python package manager
 
