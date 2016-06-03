@@ -5,7 +5,7 @@ import requests
 import time
 
 
-bot = telebot.TeleBot('230059908:AAGW_q145uRqExl8GPKu_Tiqi6RJGWVfWew')
+bot = telebot.TeleBot('230059908:AAHiskZAYT833YsehuqyfWtwqklqun0BYhU')
 
 @bot.message_handler(func=lambda m: True)
 def on_message(m):
